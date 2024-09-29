@@ -1,0 +1,36 @@
+body {
+  overflow: hidden;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 100px;
+  align-items: center;
+  height: calc(100vh - 190px);
+}
+
+.container aside {
+  margin-left: 100px;
+}
+
+.container aside p {
+  font-size: 24px;
+  color: #551a8b;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.container aside p span {
+  text-transform: lowercase;
+}
+
+.container section ul {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.container section ul li {
+  font-size: 18px;
+}

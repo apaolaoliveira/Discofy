@@ -1,0 +1,32 @@
+main {
+  padding: 40px 60px;
+}
+
+main h2 {
+  margin-bottom: 20px;
+}
+
+.card {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 12px;
+  border: 1px solid #cdcdcd;
+  padding: 10px 20px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.card:hover {
+  scale: 1.01;
+  background-color: #d5d3eb;
+}
+
+.card div {
+  display: flex;
+  gap: 10px;
+}
+
+.diamont {
+  height: 24px;
+  width: 24px;
+}

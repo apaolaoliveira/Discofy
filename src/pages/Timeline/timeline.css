@@ -1,0 +1,27 @@
+body {
+  height: calc(100vh - 190px);
+  overflow-x: hidden;
+}
+
+main {
+  padding: 40px 60px;
+}
+
+.container {
+  padding: 20px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 50px;
+  align-items: center;
+}
+
+.container aside {
+  color: #551a8b;
+}
+
+.container section {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
