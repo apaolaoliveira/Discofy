@@ -13,6 +13,10 @@ body {
   background-color: #f4f4f4;
 }
 
+a {
+  color: #551a8b;
+}
+
 .disco-lights {
   width: 100vw;
   height: 110px;
